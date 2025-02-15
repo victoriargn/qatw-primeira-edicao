@@ -1,0 +1,13 @@
+{
+  "name": "qatw-primeira-edicao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:victoriargn/qatw-primeira-edicao.git",
+  "author": "victoriargn <vicregina.oliveira@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4"
+  },
+  "scripts": {}
+}
