@@ -1,4 +1,4 @@
-export class LoginPage {
+export class LoginActions {
 
     constructor(page) {
         this.page = page;
@@ -28,5 +28,9 @@ export class LoginPage {
     async fillValid2FACode(code) {
         await this.page.getByRole('textbox', { name: '000000' }).fill(code);
         await this.page.getByRole('button', { name: 'Verificar' }).click();
+    }
+
+    async getBalance() {
+        return await this.page.locator('#account-balance');
     }
 }
