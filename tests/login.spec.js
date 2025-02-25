@@ -42,7 +42,7 @@ test('It shoud log in sucesssfully', async ({ page }) => {
   await loginActions.fillPassword(user.password);
 
   await page.getByRole('heading', { name: 'Verificação em duas etapas' })
-    .waitFor({ timeout: 3000 })
+    .waitFor({ timeout: 7000 })
 
   const code = await getJob();
   

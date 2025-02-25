@@ -7,10 +7,12 @@
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.4"
+    "@types/node": "^22.13.4",
+    "allure-playwright": "^3.2.0"
   },
   "scripts": {},
   "dependencies": {
+    "allure-commandline": "^2.32.2",
     "bullmq": "^5.41.2",
     "pg-promise": "^11.10.2"
   }
