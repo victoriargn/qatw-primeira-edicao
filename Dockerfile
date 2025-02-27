@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/playwright:v1.50.1-noble
 RUN apt-get update && apt-get install -y \
     wget \
     unzip \
-    openjdk-21-jdk \
+    openjdk-23-jdk \
     && apt-get clean
 
 # Setting the JAVA_HOME environment variable
