@@ -9,5 +9,5 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean
 
 # Setting JAVA_HOME env variable
-ENV JAVA_HOME=/Users/victoriaregina/OpenJDK/jdk-23.0.2.jdk/Contents/Home
+ENV JAVA_HOME=$HOME/OpenJDK/jdk-23.0.2.jdk/Contents/Home
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
