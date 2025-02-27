@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'dvicrgn/playwright-nj-v1.50.1-noble' //Customized image with Playwright an Java (because of allure)
+            image 'dvicrgn/playwright-nj-v1.50.1' //Customized image with Playwright an Java (because of allure)
             args '--network qatw-primeira-edicao_skynet'
         }
     }
