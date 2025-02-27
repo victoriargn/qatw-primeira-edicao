@@ -1,11 +1,11 @@
 # Using the Playwright base image
 FROM mcr.microsoft.com/playwright:v1.50.1-noble
 
-# Installing dependencies and the OpenJDK 23
-RUN apt-get update && apt-get- install -y \
+# Installing dependencies and the OpenJDK 21
+RUN apt-get update && apt-get install -y \
     wget \
     unzip \
-    openjdk-23-jdk \
+    openjdk-21-jdk \
     && apt-get clean
 
 # Setting the JAVA_HOME environment variable
