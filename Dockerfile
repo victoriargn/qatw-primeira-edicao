@@ -9,5 +9,5 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean
 
 # Setting JAVA_HOME env variable
-ENV JAVA_HOME=/Library/Java/JavaVirtualMachines/microsoft-21.jdk/Contents/Home
-ENV PATH="${JAVA_HOME}/bin:${PATH}"
+ENV JAVA_HOME=/Library/Java/JavaVirtualMachines/microsoft-21.jdk
+ENV PATH="${JAVA_HOME}/Contents/Home/bin:${PATH}"
